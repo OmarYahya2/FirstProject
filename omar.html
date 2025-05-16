@@ -1,0 +1,147 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Omar Yahya - Portfolio</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="nav-container">
+            <a href="#" class="logo">OmarYahya<span>.</span></a>
+            <div class="nav-links">
+                <a href="#home">Home</a>
+                <a href="#about">About</a>
+                <a href="#services">Services</a>
+                <a href="#contact">Contact</a>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <div class="hero-text" data-aos="fade-right">
+                <h1>Hello, It's Me<br><span>Omar Yahya</span></h1>
+                <p class="typed-text">I'm a <span id="typed"></span></p>
+                <div class="social-links">
+                    <a href="https://github.com/OmarYahya2" target="_blank"><i class="fab fa-github"></i></a>
+                    <a href="https://www.linkedin.com/in/omar-yahya-48286a316/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://www.instagram.com/omar.yahya1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.facebook.com/omar.yahya.7370" target="_blank"><i class="fab fa-facebook"></i></a>
+                </div>
+                <a href="#contact" class="btn">Get in Touch</a>
+            </div>
+            <div class="hero-image" data-aos="fade-left">
+                <img src="images/384307924_1681652192339977_6601986232934514567_n.jpg" alt="Omar Yahya - Computer Engineering Student">
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>About Me</h2>
+            </div>
+            <div class="about-content">
+                <div class="about-text" data-aos="fade-right">
+                    <p>I'm a computer engineering student at Birzeit University with a passion for learning and developing new technologies. I have experience with HTML, CSS, and Java, and I'm constantly expanding my knowledge in the field of programming and software development.</p>
+                    <div class="skills">
+                        <span class="skill-tag">HTML</span>
+                        <span class="skill-tag">CSS</span>
+                        <span class="skill-tag">Java</span>
+                        <span class="skill-tag">Web Development</span>
+                        <span class="skill-tag">Problem Solving</span>
+                    </div>
+                </div>
+                <div class="interests" data-aos="fade-left">
+                    <h3>Interests</h3>
+                    <ul>
+                        <li><i class="fas fa-code"></i> Web Development</li>
+                        <li><i class="fas fa-laptop-code"></i> Software Engineering</li>
+                        <li><i class="fas fa-brain"></i> Artificial Intelligence</li>
+                        <li><i class="fas fa-mobile-alt"></i> Mobile App Development</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>What I Do</h2>
+            </div>
+            <div class="services-grid">
+                <div class="service-card" data-aos="fade-up" data-aos-delay="100">
+                    <i class="fas fa-code"></i>
+                    <h3>Web Development</h3>
+                    <p>Creating responsive and modern websites using the latest technologies.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="200">
+                    <i class="fas fa-mobile-alt"></i>
+                    <h3>Mobile Apps</h3>
+                    <p>Developing cross-platform mobile applications with modern frameworks.</p>
+                </div>
+                <div class="service-card" data-aos="fade-up" data-aos-delay="300">
+                    <i class="fas fa-brain"></i>
+                    <h3>AI Solutions</h3>
+                    <p>Implementing intelligent solutions using machine learning algorithms.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="section">
+        <div class="container">
+            <div class="section-title" data-aos="fade-up">
+                <h2>Get in Touch</h2>
+            </div>
+            <form class="contact-form" data-aos="fade-up" id="contactForm" action="https://formspree.io/f/myzwzkal" method="POST">
+                <input type="hidden" name="_subject" value="New message from your portfolio website">
+                <div class="form-group">
+                    <label for="name">Name</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">Email</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">Message</label>
+                    <textarea id="message" name="message" rows="5" required></textarea>
+                </div>
+                <button type="submit" class="btn">Send Message</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="social-links">
+                <a href="https://github.com/OmarYahya2" target="_blank"><i class="fab fa-github"></i></a>
+                <a href="https://www.linkedin.com/in/omar-yahya-48286a316/" target="_blank"><i class="fab fa-linkedin"></i></a>
+                <a href="https://www.instagram.com/omar.yahya1/" target="_blank"><i class="fab fa-instagram"></i></a>
+                <a href="https://www.facebook.com/omar.yahya.7370" target="_blank"><i class="fab fa-facebook"></i></a>
+            </div>
+            <p>&copy; 2025 Omar Yahya. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
